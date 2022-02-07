@@ -1,0 +1,74 @@
+main {
+	padding: 0px 0px;
+	margin: 0px;
+	font-size: 20px;
+	color: black;
+}
+
+h1,
+h2 {
+	padding: 20px 0px;
+	font-size: 30px;
+	color: #14471f;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: grey;
+}
+
+header {
+	background-color: #1f275e;
+	color: #ffff00;
+	color: white;
+	padding: 1px;
+    border: 0;
+}
+
+a {
+	color: yellow;
+	font-size: 20px;
+}
+
+a:hover {
+	color: gold;
+	font-style: italic;
+}
+
+footer {
+	background-color: #202020;
+	text-align: center;
+	color: lightblue;
+	padding: 5px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-size: 20px;
+	left: 0;
+    bottom: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#menu li {
+	display: inline;
+	padding: 8px;
+}
+
+#menu li a {
+	text-decoration: none;
+}
+
+#menu li.active {
+	background-color: green !important;
+}
+
+#gameLink {
+    color:green;
+    font-style: italic;
+    font-size: 50px;
+    width:100%;
+}
+
+#gameLink:hover {
+    color:blue;
+    font-style: italic;
+    font-size: 55px;
+    width:100%;
+}
